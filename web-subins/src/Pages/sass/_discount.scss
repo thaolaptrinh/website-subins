@@ -1,0 +1,159 @@
+.page-section-best {
+
+    .page-section {
+        padding-top: 50px;
+        padding-bottom: 0px !important;
+    }
+
+
+    .discount-container {
+
+
+
+
+
+
+
+        .about-discount {
+            max-width: 100%;
+            margin-top: -50px;
+            padding-top: 150px;
+            padding-bottom: 100px;
+            background-color: #fe6817;
+            position: relative;
+
+
+
+            .list-request {
+                display: flex;
+                margin: 0 auto;
+
+                .columns-item {
+                    max-width: 500px;
+                    color: #fff;
+                    padding: 0px 30px;
+
+
+                    .steps__item {
+                        position: relative;
+                        padding-left: 60px;
+
+                        &:before {
+                            content: attr(data-step);
+                            font-weight: 900;
+                            font-size: 50px;
+                            position: absolute;
+                            color: rgba(255, 255, 255, .48);
+                            top: -5px;
+                            left: 0;
+                        }
+                    }
+
+                    .steps__title {
+                        font-size: 32px;
+                        font-weight: 900;
+                        color: inherit;
+
+
+
+                    }
+
+                    .steps__subtitle {
+                        font-size: 16px;
+                        color: rgba(255, 255, 255, .9);
+                    }
+                }
+            }
+
+
+
+        }
+
+        .page-title__text {
+            font-size: 50px;
+            color: inherit;
+            font-weight: 900;
+        }
+
+        .list-level {
+            background-color: #161b22;
+            max-width: 100%;
+            padding: 112px 0;
+
+
+            .page-title__subttext {
+                letter-spacing: 1px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 24px;
+                color: #fff;
+
+            }
+
+            .single-level {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 0 30px;
+                padding-top: 50px;
+            }
+
+            .single-box {
+                background-color: #fff;
+                text-align: center;
+                padding: 40px 0px;
+
+
+                .single-box--title {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                    color: #16215c;
+                }
+
+                .price {
+                    font-size: 30px;
+                    margin-bottom: 13px;
+                    font-weight: 700;
+                    color: #f7618b;
+
+                }
+
+                .desc {
+                    font-size: 16px;
+                    color: #16215c;
+                }
+            }
+        }
+
+        .btn-pay {
+            background-color: #7831f3;
+            padding: 12px 60px !important;
+            margin-top: 24px;
+
+            a {
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 767.98px) {
+
+
+    .single-level {
+        grid-template-columns: 1fr !important;
+        gap: 30px !important;
+
+    }
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .list-request {
+        display: block !important;
+    }
+}
